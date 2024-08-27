@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bus Booking</title>
+    <link rel="stylesheet" href="updated.css" />
+    <script src="mian.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Bus Booking</h2>
+      <button onclick="goBack()" class="btn-back">Back to Dashboard</button>
+
+      <form id="busBookingForm" action="#" method="post">
+        <div class="input-group">
+          <label for="from">From</label>
+          <input type="text" id="from" name="from" required />
+        </div>
+        <div class="input-group">
+          <label for="to">To</label>
+          <input type="text" id="to" name="to" required />
+        </div>
+        <div class="input-group">
+          <label for="date">Date</label>
+          <input type="date" id="date" name="date" required />
+        </div>
+        <button class="confetti-button" id="confettiButton" type="submit">
+          Book Now
+        </button>
+      </form>
+    </div>
+
+    <div id="toaster" class="toaster">Booking Success!</div>
+  </body>
+</html>

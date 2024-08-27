@@ -1,0 +1,263 @@
+#splash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  /* background-color: #333; */
+}
+
+#splash-screen .logo {
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-image: url("Assets/v915-wit-001-l.jpg");
+  font-family: Arial, sans-serif;
+  /* background-color: #134b70; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  object-fit: fill;
+}
+
+/* Login Container */
+#login-container {
+  display: none;
+  background-color: #f8fafa;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+#login-container h2 {
+  margin-bottom: 20px;
+  color: #090707;
+}
+
+#login-container label {
+  color: #f6f9fc;
+}
+/* Input Group */
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #030303;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Login Button */
+.btn-login {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.btn-login:hover {
+  background-color: #0056b3;
+}
+
+/* Signup Link */
+.signup-link {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
+
+/* Dashboard Styles */
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.dashboard-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.dashboard-item:hover {
+  background-color: #47a3b5;
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+.dashboard-item h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.dashboard-item p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Booking Forms Styles */
+.booking-container {
+  max-width: 600px;
+  width: 100%;
+  margin: 50px auto;
+  background: #f4f5f5;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.booking-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.booking-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.booking-container button:hover {
+  background-color: #0056b3;
+}
+
+/* Back Button */
+.btn-back {
+  padding: 10px 15px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.btn-back:hover {
+  background-color: #e5533f;
+}
+.container {
+  background: #f4f4f5d1;
+  max-width: 700px;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.confetti-button {
+  padding: 0.75rem 1.5rem;
+  background: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.confetti-button:hover {
+  background: #7690c7;
+}
+
+.toaster {
+  display: none;
+  position: fixed;
+  /* top: 1rem; */
+  /* right: 1rem; */
+  bottom: 1rem;
+  background: #28a745;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+#confetti-canvas {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  pointer-events: none;
+}
